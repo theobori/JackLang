@@ -2,7 +2,7 @@
 
 ## About
 
-Jack programming langage
+The particularity of this language is that it works without any C standard library.
 
 ## How to build and run ?
 
