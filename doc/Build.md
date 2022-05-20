@@ -21,9 +21,16 @@ export TARGET=i386-elf
 export PATH="$PREFIX/bin:$PATH"
 ```
 
-## Build the OS
+## Build
 
-Run `make`.
+### Build for the OS
+
+`make build`
+
+### Build for the CPU
+
+`make build_i386`
+
 
 ## License
 
