@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "func.h": "c",
+        "string.h": "c",
+        "jk_func.h": "c",
+        "type_traits": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "jk_types.h": "c",
+        "intern.h": "c",
+        "stddef.h": "c",
+        "gets.h": "c",
+        "typeinfo": "c"
+    }
+}

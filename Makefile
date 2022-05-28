@@ -1,10 +1,31 @@
 CC				= gcc
 LD				= ld
 
-C_FLAGS 		= -W -Wall -Wextra -ffreestanding -std=c99
+C_FLAGS 		= -W -Wall -Wextra -ffreestanding -std=c99 -I./src -g3
 LD_FLAGS 		=
 
-C_SRC			= src/main.c
+C_SRC			= src/main.c \
+				src/read_file.c \
+				src/entry_point.c \
+				src/utils/string/split.c \
+				src/utils/string/in.c \
+				src/utils/string/strcpy.c \
+				src/utils/string/strcmp.c \
+				src/utils/string/strlen.c \
+				src/utils/string/count.c \
+				src/utils/string/njoin.c \
+				src/utils/string/strcat.c \
+				src/utils/memory/memset.c \
+				src/jk_types/init.c \
+				src/jk_types/types.c \
+				src/jk_func/func.c \
+				src/jk_func/create.c \
+				src/jk_func/init.c \
+				src/jk_parsing/parse.c \
+				src/jk_parsing/init.c \
+				src/jk_parsing/func/gets.c \
+				src/jk_parsing/tree/add_func.c \
+
 OBJ  			= $(C_SRC:.c=.o)
 
 BIN  			= jack
